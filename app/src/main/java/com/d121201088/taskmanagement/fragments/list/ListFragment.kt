@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.d121201088.taskmanagement.R
@@ -95,7 +96,8 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
         val recyclerView = binding.recyclerView
         recyclerView.adapter = adapter
         recyclerView.layoutManager =
-            StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+//            StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+                LinearLayoutManager(requireActivity())
 
         // Swipe to Delete
         swipeToDelete(recyclerView)
@@ -155,17 +157,17 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
     // Show AlertDialog to Confirm Removal of All Items from Database Table
     private fun confirmRemoval() {
         val builder = AlertDialog.Builder(requireContext())
-        builder.setPositiveButton("Yes") { _, _ ->
+        builder.setPositiveButton("Iya") { _, _ ->
             mToDoViewModel.deleteAll()
             Toast.makeText(
                 requireContext(),
-                "Successfully Removed Everything!",
+                "Berhasil Menghapus Semua!",
                 Toast.LENGTH_SHORT
             ).show()
         }
-        builder.setNegativeButton("No") { _, _ -> }
-        builder.setTitle("Delete everything?")
-        builder.setMessage("Are you sure you want to remove everything?")
+        builder.setNegativeButton("Tidak") { _, _ -> }
+        builder.setTitle("Hapus Semua?")
+        builder.setMessage("Apakah anda yakin untuk menghapus semuanya?")
         builder.create().show()
     }
 

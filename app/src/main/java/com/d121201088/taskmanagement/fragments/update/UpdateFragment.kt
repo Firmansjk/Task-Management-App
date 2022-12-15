@@ -75,7 +75,7 @@ class UpdateFragment : Fragment() {
                 description
             )
             mToDoViewModel.updateData(updatedItem)
-            Toast.makeText(requireContext(), "Successfully updated!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "Berhasil diubah!", Toast.LENGTH_SHORT).show()
             // Navigate back
             findNavController().navigate(R.id.action_updateFragment_to_listFragment)
         } else {
@@ -91,7 +91,7 @@ class UpdateFragment : Fragment() {
             mToDoViewModel.deleteItem(args.currentItem)
             Toast.makeText(
                 requireContext(),
-                "Successfully Removed: ${args.currentItem.title}",
+                "Berhasil Dihapus: ${args.currentItem.title}",
                 Toast.LENGTH_SHORT
             ).show()
             findNavController().navigate(R.id.action_updateFragment_to_listFragment)

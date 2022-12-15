@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/listFragment"
         android:name="com.d121201088.taskmanagement.fragments.list.ListFragment"
-        android:label="ToDo List"
+        android:label="To-Do List"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_addFragment"
@@ -28,7 +28,7 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="com.d121201088.taskmanagement.fragments.add.AddFragment"
-        android:label="Add"
+        android:label="Tambah Catatan"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
@@ -42,7 +42,7 @@
     <fragment
         android:id="@+id/updateFragment"
         android:name="com.d121201088.taskmanagement.fragments.update.UpdateFragment"
-        android:label="Update"
+        android:label="Ubah Catatan"
         tools:layout="@layout/fragment_update" >
         <action
             android:id="@+id/action_updateFragment_to_listFragment"

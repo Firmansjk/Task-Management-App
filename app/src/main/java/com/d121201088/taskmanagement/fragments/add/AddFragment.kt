@@ -70,11 +70,11 @@ class AddFragment : Fragment() {
                 mDescription
             )
             mToDoViewModel.insertData(newData)
-            Toast.makeText(requireContext(), "Successfully added!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "Berhasil ditambahkan!", Toast.LENGTH_SHORT).show()
             // Navigate Back
             findNavController().navigate(R.id.action_addFragment_to_listFragment)
         } else {
-            Toast.makeText(requireContext(), "Please fill out all fields.", Toast.LENGTH_SHORT)
+            Toast.makeText(requireContext(), "Mohon untuk mengisi semua kolom", Toast.LENGTH_SHORT)
                 .show()
         }
     }
