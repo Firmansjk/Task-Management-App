@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/layout/fragment_add.xml" value="0.25" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/layout/fragment_list.xml" value="0.16145833333333334" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/layout/fragment_update.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/layout/row_layout.xml" value="0.1" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/menu/add_fragment_menu.xml" value="0.13854166666666667" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/menu/list_fragment_menu.xml" value="0.13854166666666667" />
+        <entry key="..\:/Mobile dev/DemoBeta/Task-Management-App/app/src/main/res/menu/update_fragment_menu.xml" value="0.13854166666666667" />
         <entry key="..\:/Mobile dev/test 21/Task-Management-App/app/src/main/res/drawable/custom_input.xml" value="0.163" />
         <entry key="..\:/Mobile dev/test 21/Task-Management-App/app/src/main/res/drawable/ic_add.xml" value="0.2115" />
         <entry key="..\:/Mobile dev/test 21/Task-Management-App/app/src/main/res/drawable/ic_check.xml" value="0.2115" />

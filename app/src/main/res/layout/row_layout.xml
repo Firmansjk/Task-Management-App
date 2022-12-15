@@ -5,7 +5,7 @@
     <data>
         <variable
             name="toDoData"
-            type="com.D121201088.taskmanagement.data.models.ToDoData" />
+            type="com.d121201088.taskmanagement.data.models.ToDoData" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

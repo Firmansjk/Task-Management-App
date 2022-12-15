@@ -6,7 +6,7 @@
     <data>
         <variable
             name="args"
-            type="com.D121201088.taskmanagement.fragments.update.UpdateFragmentArgs" />
+            type="com.d121201088.taskmanagement.fragments.update.UpdateFragmentArgs" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
