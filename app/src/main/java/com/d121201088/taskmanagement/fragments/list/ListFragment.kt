@@ -71,6 +71,7 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
                 val searchView = search.actionView as? SearchView
                 searchView?.isSubmitButtonEnabled = true
                 searchView?.setOnQueryTextListener(this@ListFragment)
+                searchView?.queryHint = "Cari..."
             }
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
